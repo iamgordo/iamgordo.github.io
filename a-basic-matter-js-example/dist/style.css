@@ -1,0 +1,26 @@
+body {
+  /* margin: 5px auto; */
+  text-align: center;
+  background-color: rgb(60, 61, 61);
+}
+@font-face {
+  font-family: PiratesWriters;
+  color: aqua;
+  src: url("./fonts/PiratesWriters.ttf");
+}
+#output {
+  font-family: PiratesWriters;
+  font-size: 28px;
+  color: aquamarine;
+}
+#div2 {
+  font-family: PiratesWriters;
+  cursor: pointer;
+  font-size: 40px;
+  background-color: blueviolet;
+  position: absolute;
+  top: 50px;
+  left: 250px;
+  width: 400px;
+  visibility: hidden;
+}
