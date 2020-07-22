@@ -197,6 +197,7 @@ function begin() {
       let bodB = pair.bodyB.label;
       if (pair.bodyB === portal) {
         game.useableballs += 1;
+        scrnoutput.innerHTML = game.useableballs;
         pair.bodyA.usable = true;
         Matter.Body.setPosition(pair.bodyA, { x: 40, y: 20 });
         Matter.Body.setVelocity(pair.bodyA, { x: 0, y: 0 });
