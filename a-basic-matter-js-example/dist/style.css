@@ -14,13 +14,13 @@ body {
   color: aquamarine;
 }
 #div2 {
-  font-family: PiratesWriters;
-  cursor: pointer;
-  font-size: 40px;
-  background-color: blueviolet;
-  position: absolute;
-  top: 50px;
-  left: 250px;
-  width: 400px;
-  visibility: hidden;
+	font-family: PiratesWriters;
+	cursor: pointer;
+	font-size: 40px;
+	background-color: blueviolet;
+	position: absolute;
+	top: 30px;
+	left: 250px;
+	width: 400px;
+	visibility: hidden;
 }
