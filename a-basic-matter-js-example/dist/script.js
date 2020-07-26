@@ -101,6 +101,17 @@ function begin() {
       isStatic: true,
       friction: 0.0001,
     }),
+//     basket
+    Bodies.rectangle(550, 400, 50, 10, {
+      isStatic: true,
+      friction: 0.0001,
+      angle: 1.56,
+    }),
+    Bodies.rectangle(600, 400, 50, 10, {
+      isStatic: true,
+      friction: 0.0001,
+      angle: 1.56,
+    }),
     // Bodies.rectangle(280, 340, game.width / 1.5 + 2 * offset, 10, {
     //   isStatic: true,
     //   friction: 0.0001,
@@ -129,7 +140,7 @@ function begin() {
       isStatic: true,
     }),
   ]);
-  let portal = Bodies.rectangle(700, 550, 40, 20, {
+  let portal = Bodies.rectangle(575, 420, 40, 20, {
     isSensor: true,
     isStatic: true,
     render: {
@@ -224,7 +235,7 @@ function begin() {
       }
     }
     if (keys[38]) {
-      if (gun.angle > -1) {
+      if (gun.angle > -1.6) {
         Matter.Body.rotate(gun, -Math.PI / 88);
         let gunangle = Math.round((gun.angle * 180) / Math.PI);
       }
