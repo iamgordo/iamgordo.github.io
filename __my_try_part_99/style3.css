@@ -1,0 +1,28 @@
+body {
+    background-color: darkslategrey;
+}
+.divs {
+    font-family: Deathnote Font;
+    font-size: 80px;
+    line-height: 200px;
+    text-align: center;
+    margin: auto;
+    width: 800px;
+    height: 600px;
+}
+#div1 {
+    background-color: rgb(59, 59, 59);
+    color: rgb(255, 255, 255);
+}
+#div2 {
+    background-color: rgb(0, 163, 49);
+    color: black;
+    visibility: hidden;
+}
+#div3 {
+    background-color: rgb(143, 3, 3);
+    color: rgb(255, 255, 255);
+}
+#frame {
+    margin-left: 120px;
+}
